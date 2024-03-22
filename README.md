@@ -14,7 +14,7 @@ This is the source code of our paper '**FeadSeq: A Federated Unsupervised Anomal
 ## Dataset Format
 Logs are stored within  the folder '**_eventlogs_**'. Each file name follows the format: **log_name** _ **client_id** - **anomaly_ratio**.json.gz.
 
-For instance, 'BPIC20_0-0.00.json.gz' denotes the clean log (i.e., anomaly_ratio=0) for client 0.
+For instance, 'BPIC20_0-0.00.json.gz' denotes the clean log (i.e., anomaly_ratio=0.00) for client 0.
 
 
 ## Using Our Code
