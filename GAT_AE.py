@@ -232,7 +232,7 @@ class Decoder_attr(nn.Module):
         return pred, dec_hidden[-1],attention_probs ,middle
 
 class GAT_AE(nn.Module):
-    def __init__(self,embed_dim,common_attribute_dims, max_seq_len,hidden_dim=16, GAT_heads=4, decoder_num_layers=2,TF_styles='FAP'):
+    def __init__(self,embed_dim,common_attribute_dims, max_seq_len,hidden_dim=64, GAT_heads=4, decoder_num_layers=2,TF_styles='FAP'):
         super().__init__()
         encoders=[]
         decoders=[]

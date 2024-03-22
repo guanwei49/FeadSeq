@@ -11,7 +11,7 @@ from GAT_AE import GAT_AE
 from utils.data_utils import read_client_data_forSYN
 
 
-class FedSeq():
+class FeadSeq():
     def __init__(self, args):
         self.args=args
         self.device = args.device
@@ -69,8 +69,9 @@ class FedSeq():
 
 
         # print(self.res_metrics)
-        ROOT_DIR = Path(__file__).parent.parent.parent.parent
+        ROOT_DIR = Path(__file__).parent
         res = pd.DataFrame(self.res_metrics)
+        res.insert(0, 'global_round', [gr+1 for gr in range(self.global_rounds)])
 
         print(res)
         print(ROOT_DIR)

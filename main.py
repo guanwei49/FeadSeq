@@ -16,8 +16,8 @@ def run(args):
     print("Creating server and clients ...")
     start = time.time()
 
-    from server import FedSeq
-    server = FedSeq(args)
+    from server import FeadSeq
+    server = FeadSeq(args)
 
 
     server.train()
