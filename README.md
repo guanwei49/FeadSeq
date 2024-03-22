@@ -11,7 +11,7 @@ This is the source code of our paper '**FeadSeq: A Federated Unsupervised Anomal
 - [pandas](https://pandas.pydata.org/) = 1.3.5
 - [lxml](https://pypi.org/project/lxml/)
 
-##Dataset Format
+## Dataset Format
 Logs are stored within  the folder '**_eventlogs_**'. Each file name follows the format: **log_name** _ **client_id** - **anomaly_ratio**.json.gz.
 
 For instance, 'BPIC20_0-0.00.json.gz' denotes the clean log (i.e., anomaly_ratio=0) for client 0.
