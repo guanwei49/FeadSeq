@@ -4,12 +4,11 @@ This is the source code of our paper '**FeadSeq: A Federated Unsupervised Anomal
 ![model](pic/fl.png)
 
 ## Requirements
-- [PyTorch](https://pytorch.org)
-- [NumPy](https://numpy.org)
-- [scikit-learn](https://scikit-learn.org) = 1.0.2
-- [pm4py](https://pm4py.fit.fraunhofer.de/)
-- [pandas](https://pandas.pydata.org/) = 1.3.5
-- [lxml](https://pypi.org/project/lxml/)
+- [PyTorch](https://pytorch.org) ==1.13.0
+- [NumPy](https://numpy.org) == 1.21.6
+- [scikit-learn](https://scikit-learn.org) == 1.0.2
+- [pandas](https://pandas.pydata.org/) == 1.3.5
+- [lxml](https://pypi.org/project/lxml/) 
 
 ## Dataset Format
 Logs are stored within  the folder '**_eventlogs_**'. Each file name follows the format: **log_name** _ **client_id** - **anomaly_ratio**.json.gz.
