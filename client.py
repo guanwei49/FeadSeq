@@ -227,8 +227,6 @@ class client():
             old_param.data = new_param.data.clone()*model_mask +  old_param.data.clone() * ~model_mask
 
     def train(self):
-        '''改回只进行mask的联邦，freeze下面的grad， set_parameters（）不要后面的old '''
-
         traindataset = self.load_train_data()
         self.model.train()
         self.standalone_linears.train()
