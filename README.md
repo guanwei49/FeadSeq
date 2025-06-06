@@ -1,6 +1,6 @@
 # FeadSeq: A Federated Unsupervised Anomaly Detection Framework for Discrete Event Sequences
 
-This is the source code of our paper '**FeadSeq: A Federated Unsupervised Anomaly Detection Framework for Discrete Event Sequences**'.
+This is the source code of our paper '**[FeadSeq: A Federated Unsupervised Anomaly Detection Framework for Discrete Event Sequences](https://dl.acm.org/doi/10.1145/3742896)**'.
 ![model](pic/fl.png)
 
 ## Requirements
